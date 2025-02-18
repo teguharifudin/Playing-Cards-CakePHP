@@ -8,7 +8,7 @@ const CardDistribution = () => {
     const [results, setResults] = useState([]);
     const [warning, setWarning] = useState('');
 
-    const API_URL = 'http://localhost:8765/cards/distribute';
+    const API_URL = 'http://localhost:8765/cards';
 
     const validateInput = (value) => {
         // Check if input contains anything other than numbers
