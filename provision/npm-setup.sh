@@ -6,6 +6,13 @@ echo 'export PATH="$HOME/.npm-global/bin:$PATH"' >> $HOME/.bashrc
 export PATH="$HOME/.npm-global/bin:$PATH"
 npm install -g npm@latest
 
+# Install CakePHP dependencies
+cd /var/www/backend
+if [ -f "composer.json" ]; then
+    echo "Installing CakePHP dependencies..."
+    composer install
+fi
+
 # Install React dependencies
 cd /var/www/frontend
 if [ -f "package.json" ]; then
