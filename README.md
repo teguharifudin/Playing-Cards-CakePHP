@@ -1,5 +1,5 @@
 # Playing Cards
-Playing Cards, a Node.js frontend and a PHP REST API backend with React.js and CakePHP using Vagrant.
+Playing Cards, a JavaScript frontend and a PHP REST API backend with React.js and CakePHP using Vagrant.
 
 ## How to Run
 
